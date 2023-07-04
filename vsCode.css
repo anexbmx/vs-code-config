@@ -1,0 +1,32 @@
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title>.title-actions {
+    display: none;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title:not(.tabs) {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+/* SideBar */
+.monaco-workbench .part.sidebar .title-actions ul.actions-container[role="toolbar"] {
+    display: none !important;
+}
+
+.editor-scrollable>.monaco-scrollable-element>.invisible.fade {
+    display: none;
+}
+
+/* Only show the scrollbar on hover. */
+.editor .scrollbar .slider {
+    display: none;
+}
+
+.minimap, .editor-scrollable>.decorationsOverviewRuler {
+    display: none !important;
+}
+
+
+/* Change cursor color. */
+.monaco-editor .cursor {
+    background: linear-gradient(to bottom, #7f00ff, #e100ff) !important;
+    color: #292D3E !important
+}
