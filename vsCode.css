@@ -3,7 +3,8 @@
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title:not(.tabs) {
-    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    border-bottom: 2px solid #0078D4;
 }
 
 /* SideBar */
@@ -11,7 +12,7 @@
     display: none !important;
 }
 
-.editor-scrollable>.monaco-scrollable-element>.invisible.fade {
+.monaco-workbench .editor-scrollable>.monaco-scrollable-element>.invisible.fade {
     display: none;
 }
 
@@ -29,4 +30,16 @@
 .monaco-editor .cursor {
     background: linear-gradient(to bottom, #7f00ff, #e100ff) !important;
     color: #292D3E !important
+}
+
+.monaco-workbench .mac:not(.web) .part.titlebar>.titlebar-container>.titlebar-right>.layout-controls-container {
+    display: none !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center {
+    display: none !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right {
+    display: none !important;
 }
