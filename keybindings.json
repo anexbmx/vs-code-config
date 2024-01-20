@@ -18,12 +18,6 @@
 	},
 
 	// TODO: File Explorer
-	// Collapse all Folder:     cmd + <-
-	// rename:                  Enter
-	// delete:                  cmd + backspace
-	// new File:                cmd + n
-	// new Folder:              cmd + shift + n
-	// duplicate File:          cmd + d
 
 	{
 		"key": "cmd+d",
@@ -107,6 +101,7 @@
 		"when": "editorFocus && editorHasSelection"
 	},
 
+
 	// TODO: Emmet
 	{
 		"key": "cmd+m cmd+i",
@@ -147,17 +142,17 @@
 	// TODO: Terminal Split Panel
 	{
 		"key": "ctrl+n",
-		"command": "workbench.action.terminal.split",
+		"command": "workbench.action.terminal.new",
 		"when": "terminalFocus"
 	},
 	{
 		"key": "ctrl+l",
-		"command": "workbench.action.terminal.focusNextPane",
+		"command": "workbench.action.terminal.focusNext",
 		"when": "terminalFocus"
 	},
 	{
 		"key": "ctrl+h",
-		"command": "workbench.action.terminal.focusPreviousPane",
+		"command": "workbench.action.terminal.focusPrevious",
 		"when": "terminalFocus"
 	},
 	{
